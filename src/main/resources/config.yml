@@ -1,0 +1,105 @@
+holdable-items:
+  switch-visibility-item: #Do not change id of that section name
+    #Change to false if you don't want that item :)
+    enabled: true
+    slot: 5
+    item-per-state:
+      SHOWN:
+        name: "&8* &7Visibility: &eall players &8*"
+        material: "ARROW"
+      PREMIUM:
+        name: "&8* &7Visibility: &epremium players &8*"
+        material: "ARROW"
+      HIDDEN:
+        name: "&8* &7Visibility: &eeveryone hidden &8*"
+        material: "ARROW"
+  servers-menu: #Do not change these ids!
+    enabled: true
+    slot: 2
+    name: "&8* &7Open &eservers menu &8*"
+    material: "COMPASS"
+  disco-armor:
+    enabled: true
+    slot: 8
+    name: "&8* &7Disco Armor &e(PREMIUM) &8*"
+    lore:
+      - " &7Available only for &epremium&7 players"
+    material: "INK_SACK"
+    data: 7
+  fly:
+    enabled: true
+    slot: 7
+    name: "&8* &7Fly &e(PREMIUM) &8*"
+    lore:
+      - " &7Available only for &epremium&7 players"
+    material: "FEATHER"
+servers:
+  inventory-settings:
+    name: "&9&lServers menu"
+    size: 9
+  fill-empty:
+    enabled: true
+    material: STAINED_GLASS_PANE
+    data: 7
+    name: "&7"
+  list:
+    survival:
+      slot: 4
+      material: "DIAMOND"
+      name: "  &eSurvival  "
+      lore:
+        - " "
+        - "&8 * &7Create own &efactions&7 and &ebe top 1&7!"
+        - "&8 * &7Play with &efriends&7, on new survival server!"
+        - " "
+        - "&8 * &7Players online: &e{PLAYERS}"
+        - "&8 * &7Server created with &fpassion&7."
+disco-armor:
+  inventory-name: "&9&lDiscoArmor menu"
+  inventory-size: 9
+  items:
+    current:
+      mode: CURRENT
+      name: "&7Current: &e{CURRENT}"
+      material: "ARROW"
+      slot: 0
+    smooth:
+      mode: SMOOTH
+      name: "&7Smooth"
+      material: "INK_SACK"
+      lore:
+        - " &7Click to change mode to &eSMOOTH"
+      data: 4
+      slot: 3
+    ultra:
+      mode: ULTRA
+      name: "&7Ultra"
+      material: "INK_SACK"
+      lore:
+        - " &7Click to change mode to &eULTRA"
+      data: 5
+      slot: 4
+    fast:
+      mode: FAST
+      name: "&7Fast"
+      material: "INK_SACK"
+      lore:
+        - " &7Click to change mode to &eFAST"
+      data: 6
+      slot: 5
+    random:
+      mode: RANDOM
+      name: "&7Random"
+      material: "INK_SACK"
+      lore:
+        - " &7Click to change mode to &eRANDOM"
+      data: 7
+      slot: 6
+    disable:
+      mode: DISABLE
+      name: "&cDisable DiscoArmor"
+      material: "INK_SACK"
+      lore:
+        - " &7Click to &fdisable&7 disco armor"
+      data: 14
+      slot: 8

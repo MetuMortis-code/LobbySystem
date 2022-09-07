@@ -1,0 +1,13 @@
+name: 'LobbySystem'
+version: ${project.version}
+main: 'xyz.yooniks.lobby.LobbyPlugin'
+authors: [yooniks]
+description: 'An advanced plugin for lobby system'
+website: 'github.com/yooniks'
+
+softdepend: ['PlaceholderAPI']
+
+commands:
+  spawn:
+  setspawn:
+  chat:
